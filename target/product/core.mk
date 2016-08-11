@@ -76,7 +76,7 @@ PRODUCT_PACKAGES += \
     telephony-common \
     voip-common \
     TaintDroidNotify \
-    jniApiTester
+    JniApiTester
 
 # host-only dependencies
 ifeq ($(WITH_HOST_DALVIK),true)
