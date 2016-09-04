@@ -76,11 +76,10 @@ PRODUCT_PACKAGES += \
     telephony-common \
     voip-common \
     TaintDroidNotify \
-    JniApiTester \
 	valgrind \
 	taintgrind-arm-linux \
-	vgpreload_core-arm-linux \
-	vgpreload_memcheck-arm-linux
+	vgpreload_core-arm-linux
+    # JniApiTester \
 
 # host-only dependencies
 ifeq ($(WITH_HOST_DALVIK),true)
